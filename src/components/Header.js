@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header id='showcase' className='grid'>
@@ -11,9 +11,9 @@ const Header = () => {
           saepe similique incidunt commodi illo quasi, ullam iure in tempora
           accusantium.
         </p>
-        <a href='#section-b' className='btn'>
+        <Link to='/about' className='btn'>
           Read More
-        </a>
+        </Link>
       </div>
     </header>
   );
