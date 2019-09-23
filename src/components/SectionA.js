@@ -3,10 +3,10 @@ import React from 'react';
 const SectionA = () => {
   return (
     // Section A
-    <section id='section-a' class='grid'>
-      <div class='content-wrap'>
-        <h2 class='content-title'>Web & Application Developement</h2>
-        <div class='content-text'>
+    <section id='section-a' className='grid'>
+      <div className='content-wrap'>
+        <h2 className='content-title'>Web & Application Developement</h2>
+        <div className='content-text'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
             consequuntur cumque placeat voluptas adipisci! Consectetur illo
